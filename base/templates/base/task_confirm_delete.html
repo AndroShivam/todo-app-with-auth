@@ -1,0 +1,14 @@
+{% extends 'base/base.html' %}
+{% block content %}
+
+    <div class="header">
+        Are you Sure? You want to delete "{{ task }}"
+    </div>
+    <div class="pad-container">
+        <form action="" method="POST">
+            {% csrf_token %}
+            <button class="primary-btn" type="submit" value="Yes">Yes</button>
+            <a class="primary-btn" href="{% url 'tasks' %}">No</a>
+        </form>
+    </div>
+{% endblock content %}
