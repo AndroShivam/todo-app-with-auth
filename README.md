@@ -6,7 +6,7 @@ Django Based Todo Application with Authentication
 </br>
 
 
-#Screenshot
+## Screenshot
 ![Screenshot (9)](https://user-images.githubusercontent.com/52043419/112967236-ae30eb80-9168-11eb-8b59-480cbae8045a.png)
 
 
