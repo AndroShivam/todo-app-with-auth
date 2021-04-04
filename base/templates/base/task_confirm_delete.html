@@ -8,7 +8,7 @@
         <form action="" method="POST">
             {% csrf_token %}
             <button class="primary-btn" type="submit" value="Yes">Yes</button>
-            <a class="primary-btn" href="{% url 'tasks' %}">No</a>
+            <button class="primary-btn"  href="{% url 'tasks' %}">No</button>
         </form>
     </div>
 {% endblock content %}

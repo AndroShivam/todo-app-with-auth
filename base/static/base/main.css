@@ -21,6 +21,10 @@ a{
     color: black;
 }
 
+.link {
+    color: blue;
+}
+
 /* Utils */
 input[type='text'],
 input[type='password'],
@@ -32,7 +36,7 @@ textarea {
 
 input[type='submit']{
     padding: 8px 16px;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 .primary-btn {
